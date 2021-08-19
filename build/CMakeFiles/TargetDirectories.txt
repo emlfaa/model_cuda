@@ -1,0 +1,3 @@
+/media/buyun/no1/code_learn/CLionProjects/learn_cuda/build/CMakeFiles/edit_cache.dir
+/media/buyun/no1/code_learn/CLionProjects/learn_cuda/build/CMakeFiles/learn_cuda.dir
+/media/buyun/no1/code_learn/CLionProjects/learn_cuda/build/CMakeFiles/rebuild_cache.dir

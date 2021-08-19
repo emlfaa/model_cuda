@@ -1,0 +1,4 @@
+/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/learn_cuda.dir
+/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/myplugins.dir

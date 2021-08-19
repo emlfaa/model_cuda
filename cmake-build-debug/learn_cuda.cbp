@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="learn_cuda"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learn_cuda">
+				<Option output="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/learn_cuda" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cuda"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cpu"/>
+					<Add directory="/home/ub/workspace/Toolkits/TensorRT-7.0.0.11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 learn_cuda"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learn_cuda/fast">
+				<Option output="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/learn_cuda" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cuda"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cpu"/>
+					<Add directory="/home/ub/workspace/Toolkits/TensorRT-7.0.0.11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 learn_cuda/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myplugins">
+				<Option output="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/libmyplugins.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cuda"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cpu"/>
+					<Add directory="/home/ub/workspace/Toolkits/TensorRT-7.0.0.11/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 myplugins"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myplugins/fast">
+				<Option output="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/libmyplugins.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cuda"/>
+					<Add directory="/home/ub/workspace/codespace/cloth/learn_cuda/cpu"/>
+					<Add directory="/home/ub/workspace/Toolkits/TensorRT-7.0.0.11/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 myplugins/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/learn_cuda.dir/cuda/learn_cuda_generated_cudamn.cu.o">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/learn_cuda.dir/tensorrt/yolov5/learn_cuda_generated_yololayer.cu.o">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/learn_cuda.dir/tensorrt/yolov5/learn_cuda_generated_yololayer.cu.o.rule">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cmake-build-debug/CMakeFiles/myplugins.dir/tensorrt/yolov5/myplugins_generated_yololayer.cu.o">
+			<Option target="myplugins"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cpu/cpu.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cpu/cpu.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cpu/cpu_initialization.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cpu/cpu_initialization.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cuda/cuda_initialization.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cuda/cuda_initialization.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cuda/cudamn.cu">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/cuda/cudamn.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/main.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/opencv_process/opencv_initialization.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/opencv_process/opencv_initialization.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/opencv_process/opencv_process.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/opencv_process/opencv_process.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/common.hpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/logging.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/utils_yolov5.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/yololayer.cu">
+			<Option target="learn_cuda"/>
+			<Option target="myplugins"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/yololayer.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/yolov5.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/tensorrt/yolov5/yolov5.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/utils_cuda/config.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/utils_cuda/file_process.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/utils_cuda/file_process.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/utils_cuda/memory_pool.cpp">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/utils_cuda/memory_pool.h">
+			<Option target="learn_cuda"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/ub/workspace/codespace/cloth/learn_cuda/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
